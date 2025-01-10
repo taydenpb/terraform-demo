@@ -17,11 +17,6 @@ output "subnet_id" {
   description = "The ID of the demo Subnet"
 }
 
-output "VCS-TEST" {
-  value = "testing my VCS"
-}
-
-
 output "public_access_block_enabled" {
   value = aws_s3_bucket_public_access_block.status.block_public_policy
 }
