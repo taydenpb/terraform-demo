@@ -7,6 +7,10 @@ output "api_endpoint" {
   value = "${aws_apigatewayv2_api.api.api_endpoint}/greet"
 }
 
+output "VCS-TEST" {
+  value = "testing my VCS"
+}
+
 output "vpc_id" {
   value = aws_vpc.demo_vpc.id
   description = "The ID of the demo VPC"
